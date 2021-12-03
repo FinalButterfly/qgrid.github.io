@@ -42,9 +42,6 @@
 .icon-vue:before, .vue:before {
   content: "\E009"; }
 
-.qgrid-examples::before {
-  content: url("../assets/images/qgrid-examples-logo.svg"); }
-
 .icon-cleartypescripts:before, .cleartypescripts:before {
   content: url("../assets/images/cleartypescripts.svg"); }
 
@@ -248,7 +245,7 @@ body {
   background: #fff; }
 
 section {
-  margin-bottom: 120px; }
+  margin-bottom: 160px; }
   @media screen and (max-width: 768px) {
     section {
       margin-bottom: 80px; } }
@@ -269,3 +266,31 @@ ul {
 
 a {
   text-decoration: none; }
+
+.button, .button-secondary {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #2F80ED;
+  border: 1px solid rgba(255, 255, 255, 0);
+  color: #fff;
+  vertical-align: middle;
+  padding: 8px 18px;
+  border-radius: 4px;
+  text-decoration: none; }
+  .button_big {
+    padding: 20px 18px 20px 18px; }
+  .button:hover, .button-secondary:hover {
+    background-color: #ffffff;
+    border: 1px solid #0078CF;
+    color: #282828; }
+
+.button-secondary {
+  background-color: #ffffff;
+  border: 1px solid #0078CF;
+  color: #353535; }
+  .button-secondary:hover {
+    background-color: #0078CF;
+    border: 1px solid #0078CF;
+    color: #ffffff; }
